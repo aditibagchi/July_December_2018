@@ -148,3 +148,175 @@ View(SUbset_Mets_Germline_36)
 DF_36<- as.data.frame(SUbset_Mets_Germline_36)
 mut.to.sigs.input(mut.ref = DF_36, sample.id = "Sample", chr = "chr", pos = "X",
 ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_37<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_37.csv")
+View(SUbset_Mets_Germline_37)
+DF_37<- as.data.frame(SUbset_Mets_Germline_37)
+mut.to.sigs.input(mut.ref = DF_37, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_38<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_38.csv")
+View(SUbset_Mets_Germline_38)
+DF_38<- as.data.frame(SUbset_Mets_Germline_38)
+mut.to.sigs.input(mut.ref = DF_38, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_39<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_39.csv")
+View(SUbset_Mets_Germline_39)
+DF_39<- as.data.frame(SUbset_Mets_Germline_39)
+mut.to.sigs.input(mut.ref = DF_39, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_40<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_40.csv")
+View(SUbset_Mets_Germline_40)
+mut.to.sigs.input(mut.ref = DF_40, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+mut.to.sigs.input(mut.ref = DF_40, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+DF_40<- as.data.frame(SUbset_Mets_Germline_40)
+mut.to.sigs.input(mut.ref = DF_40, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_41<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_41.csv")
+DF_41<- as.data.frame(SUbset_Mets_Germline_41)
+mut.to.sigs.input(mut.ref = DF_41, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_42<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_42.csv")
+DF_42<- as.data.frame(SUbset_Mets_Germline_42)
+mut.to.sigs.input(mut.ref = DF_42, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_43<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_43.csv")
+>
+> DF_43<- as.data.frame(SUbset_Mets_Germline_43)
+> mut.to.sigs.input(mut.ref = DF_43, sample.id = "Sample", chr = "chr", pos = "X",
++                   ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_43<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_43.csv")
+DF_43<- as.data.frame(SUbset_Mets_Germline_43)
+SUbset_Mets_Germline_43<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_43.csv")
+>
+> DF_43<- as.data.frame(SUbset_Mets_Germline_43)
+> mut.to.sigs.input(mut.ref = DF_43, sample.id = "Sample", chr = "chr", pos = "X",
++                   ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+mut.to.sigs.input(mut.ref = DF_43, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_44<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_44.csv")
+DF_44<- as.data.frame(SUbset_Mets_Germline_44)
+mut.to.sigs.input(mut.ref = DF_44, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_45<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_45.csv")
+DF_45<- as.data.frame(SUbset_Mets_Germline_45)
+mut.to.sigs.input(mut.ref = DF_45, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_46<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_46.csv")
+DF_46<- as.data.frame(SUbset_Mets_Germline_46)
+mut.to.sigs.input(mut.ref = DF_46, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_47<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_47.csv")
+DF_47<- as.data.frame(SUbset_Mets_Germline_47)
+mut.to.sigs.input(mut.ref = DF_47, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_48<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_48.csv")
+DF_48<- as.data.frame(SUbset_Mets_Germline_48)
+mut.to.sigs.input(mut.ref = DF_48, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_49<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_49.csv")
+DF_49<- as.data.frame(SUbset_Mets_Germline_49)
+mut.to.sigs.input(mut.ref = DF_49, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_50<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_50.csv")
+mut.to.sigs.input(mut.ref = DF_50, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+DF_50<- as.data.frame(SUbset_Mets_Germline_50)
+mut.to.sigs.input(mut.ref = DF_50, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_51<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_51.csv")
+DF_51<- as.data.frame(SUbset_Mets_Germline_51)
+mut.to.sigs.input(mut.ref = DF_51, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_52<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_52.csv")
+DF_52<- as.data.frame(SUbset_Mets_Germline_52)
+mut.to.sigs.input(mut.ref = DF_52, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_53<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_53.csv")
+DF_53<- as.data.frame(SUbset_Mets_Germline_53)
+mut.to.sigs.input(mut.ref = DF_53, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_54<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_54.csv")
+DF_54<- as.data.frame(SUbset_Mets_Germline_54)
+mut.to.sigs.input(mut.ref = DF_54, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_55<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_55.csv")
+DF_55<- as.data.frame(SUbset_Mets_Germline_55)
+mut.to.sigs.input(mut.ref = DF_55, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_56<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_56.csv")
+DF_56<- as.data.frame(SUbset_Mets_Germline_56)
+mut.to.sigs.input(mut.ref = DF_56, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_57<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_57.csv")
+DF_57<- as.data.frame(SUbset_Mets_Germline_57)
+mut.to.sigs.input(mut.ref = DF_57, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_58<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_58.csv")
+DF_58<- as.data.frame(SUbset_Mets_Germline_58)
+mut.to.sigs.input(mut.ref = DF_58, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_60<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_60.csv")
+DF_60<- as.data.frame(SUbset_Mets_Germline_60)
+mut.to.sigs.input(mut.ref = DF_58, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+mut.to.sigs.input(mut.ref = DF_60, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_61<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_61.csv")
+DF_61<- as.data.frame(SUbset_Mets_Germline_61)
+mut.to.sigs.input(mut.ref = DF_61, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_62<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_62.csv")
+DF_62<- as.data.frame(SUbset_Mets_Germline_62)
+mut.to.sigs.input(mut.ref = DF_62, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_63<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_63.csv")
+DF_63<- as.data.frame(SUbset_Mets_Germline_63)
+mut.to.sigs.input(mut.ref = DF_63, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_64<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_64.csv")
+DF_64<- as.data.frame(SUbset_Mets_Germline_64)
+mut.to.sigs.input(mut.ref = DF_64, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_65<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_65.csv")
+DF_65<- as.data.frame(SUbset_Mets_Germline_65)
+mut.to.sigs.input(mut.ref = DF_65, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_66<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_66.csv")
+DF_66<- as.data.frame(SUbset_Mets_Germline_66)
+mut.to.sigs.input(mut.ref = DF_66, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_67<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_67.csv")
+DF_67<- as.data.frame(SUbset_Mets_Germline_67)
+mut.to.sigs.input(mut.ref = DF_67, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_68<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_68.csv")
+DF_68<- as.data.frame(SUbset_Mets_Germline_68)
+mut.to.sigs.input(mut.ref = DF_68, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_69<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_69.csv")
+DF_69<- as.data.frame(SUbset_Mets_Germline_69)
+mut.to.sigs.input(mut.ref = DF_69, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_70<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_70.csv")
+DF_70<- as.data.frame(SUbset_Mets_Germline_70)
+mut.to.sigs.input(mut.ref = DF_70, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_71<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_71.csv")
+DF_71<- as.data.frame(SUbset_Mets_Germline_71)
+mut.to.sigs.input(mut.ref = DF_71, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_72<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_72.csv")
+DF_72<- as.data.frame(SUbset_Mets_Germline_72)
+mut.to.sigs.input(mut.ref = DF_72, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+SUbset_Mets_Germline_73<- read.csv("~/Desktop/Data_Analysis/last MAF files/SUbset_Mets_Germline_73.csv")
+DF_73<- as.data.frame(SUbset_Mets_Germline_73)
+mut.to.sigs.input(mut.ref = DF_73, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+sigs.input <- mut.to.sigs.input(mut.ref = DF_73, sample.id = "Sample", chr = "chr", pos = "X",
++                   ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+sigs_input <- mut.to.sigs.input(mut.ref = DF_73, sample.id = "Sample", chr = "chr", pos = "X",
++                   ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
+Sigs_input_final <- mut.to.sigs.input(mut.ref = DF_73, sample.id = "Sample", chr = "chr", pos = "X",
+ref = "ref", alt = "alt", bsg = BSgenome.Hsapiens.UCSC.hg19)
