@@ -119,6 +119,19 @@ cat('Maf1_MB9_depth in dbSNP: ',length(which(! Maf1_MB9_depth$dbSNP_RS=='novel')
 cat('Maf1_MB9_depth NOT dbSNP: ',length(which(Maf1_MB9_depth$dbSNP_RS=='novel')))
 
 filter = 3
+Maf1_MB9_depth_AF3 = subset(Maf1_MB9_depth,Maf1_MB9_depth$AF>=filter)
+str(Maf1_MB13_depth_AF3)
+
+filter = 1
+Maf1_MB9_depth_AF1 = subset(Maf1_MB9_depth,Maf1_MB9_depth$AF>=filter)
+str(Maf1_MB9_depth_AF1)
+
+filter = 0.5
+Maf1_MB9_depth_AF = subset(Maf1_MB9_depth,Maf1_MB9_depth$AF>=filter)
+str(Maf1_MB9_depth_AF)
+cat('Maf1_MB9_depth_AF in dbSNP: ',length(which(! Maf1_MB9_depth_AF$dbSNP_RS=='novel')))
+cat('Maf1_MB9_depth_AF NOT dbSNP: ',length(which(Maf1_MB9_depth_AF$dbSNP_RS=='novel')))
+
 Maf1_MB7 <- subsetMaf(maf1, tsb = "ABSJ112017MB7"  , genes = NULL, fields = NULL, query = NULL,
                       mafObj = FALSE, includeSyn = TRUE, isTCGA = FALSE, restrictTo = "all")
 min.depth.filter  = 100
@@ -129,6 +142,19 @@ cat('Maf1_MB7_depth in dbSNP: ',length(which(! Maf1_MB7_depth$dbSNP_RS=='novel')
 cat('Maf1_MB7_depth NOT dbSNP: ',length(which(Maf1_MB7_depth$dbSNP_RS=='novel')))
 
 
+filter = 3
+Maf1_MB7_depth_AF3 = subset(Maf1_MB7_depth,Maf1_MB7_depth$AF>=filter)
+str(Maf1_MB7_depth_AF3)
+
+filter = 1
+Maf1_MB7_depth_AF1 = subset(Maf1_MB7_depth,Maf1_MB7_depth$AF>=filter)
+str(Maf1_MB7_depth_AF1)
+
+filter = 0.5
+Maf1_MB7_depth_AF = subset(Maf1_MB7_depth,Maf1_MB7_depth$AF>=filter)
+str(Maf1_MB7_depth_AF)
+cat('Maf1_MB7_depth_AF in dbSNP: ',length(which(! Maf1_MB7_depth_AF$dbSNP_RS=='novel')))
+cat('Maf1_MB7_depth_AF NOT dbSNP: ',length(which(Maf1_MB7_depth_AF$dbSNP_RS=='novel')))
 Maf1_MB14 <- subsetMaf(maf1, tsb = "ABSJ112017MB14"  , genes = NULL, fields = NULL, query = NULL,
                      mafObj = FALSE, includeSyn = TRUE, isTCGA = FALSE, restrictTo = "all")
 min.depth.filter  = 100
