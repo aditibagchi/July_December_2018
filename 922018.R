@@ -118,6 +118,7 @@ str(Maf1_MB9_depth)
 cat('Maf1_MB9_depth in dbSNP: ',length(which(! Maf1_MB9_depth$dbSNP_RS=='novel')))
 cat('Maf1_MB9_depth NOT dbSNP: ',length(which(Maf1_MB9_depth$dbSNP_RS=='novel')))
 
+filter = 3
 Maf1_MB7 <- subsetMaf(maf1, tsb = "ABSJ112017MB7"  , genes = NULL, fields = NULL, query = NULL,
                       mafObj = FALSE, includeSyn = TRUE, isTCGA = FALSE, restrictTo = "all")
 min.depth.filter  = 100
@@ -126,6 +127,7 @@ str(Maf1_MB7_depth)
 
 cat('Maf1_MB7_depth in dbSNP: ',length(which(! Maf1_MB7_depth$dbSNP_RS=='novel')))
 cat('Maf1_MB7_depth NOT dbSNP: ',length(which(Maf1_MB7_depth$dbSNP_RS=='novel')))
+
 
 Maf1_MB14 <- subsetMaf(maf1, tsb = "ABSJ112017MB14"  , genes = NULL, fields = NULL, query = NULL,
                      mafObj = FALSE, includeSyn = TRUE, isTCGA = FALSE, restrictTo = "all")
